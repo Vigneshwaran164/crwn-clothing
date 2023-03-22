@@ -10,7 +10,19 @@ export const CartContext = createContext({
 })
 
 
+const INITIAL_STATE = {
+    isCartOpen : false,
+    cartItems : [],
+    cartCount : 0,
+    cartTotal : 0 ,
+}
+
+
 export const CartProvider = ({children}) =>{
+
+
+
+
 
     const [items,setItems] = useState([]);
 

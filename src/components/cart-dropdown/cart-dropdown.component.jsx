@@ -43,7 +43,7 @@ const CartDropDown = () => {
                <span className='name'> {product.item.name}</span>
                 <span className='price'>{product.qty} * ${product.item.price}  </span>  
             </Footer>
-                </Container>
+        </Container>
             
         )):(
             <EmptyMessage>Your Cart is Empty</EmptyMessage>
